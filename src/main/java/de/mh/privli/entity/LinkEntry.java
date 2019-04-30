@@ -1,4 +1,4 @@
-package de.mh.privli.boundary.entity;
+package de.mh.privli.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

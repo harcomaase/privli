@@ -1,7 +1,7 @@
 package de.mh.privli.boundary;
 
-import de.mh.privli.boundary.entity.LinkEntry;
-import de.mh.privli.boundary.entity.repository.LinkEntryRepository;
+import de.mh.privli.entity.LinkEntry;
+import de.mh.privli.entity.repository.LinkEntryRepository;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
