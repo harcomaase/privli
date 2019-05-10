@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <script  type="text/javascript">
+            init();
+
+            function init() {
+                fetch('./user', {
+                    method: 'GET'
+                })
+                        .then(response => response.json())
+                        .then(json => console.log(JSON.stringify(json)));
+            }
+
+        </script>
+    </body>
+</html>

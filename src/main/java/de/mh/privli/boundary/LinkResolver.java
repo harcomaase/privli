@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping(path = LinkResolver.PATH)
 public class LinkResolver {
+
+    public static final String PATH = "/a";
 
     @Autowired
     private LinkEntryRepository linkEntryRepository;
